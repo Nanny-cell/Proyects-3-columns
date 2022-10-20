@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap%27");
+
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 0px !important;
+  }
+
+  .container {
+    margin: 5px;
+  }
+
+  .bright-orange {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+
+  .dark-cyan {
+    border-radius: 0 !important;
+  }
+
+  .very-dark-cyan {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+}
+
+.bright-orange {
+  background-color: hsl(31, 77%, 52%) !important;
+}
+
+.dark-cyan {
+  background-color: hsl(184, 100%, 22%) !important;
+}
+
+.very-dark-cyan {
+  background-color: hsl(179, 100%, 13%) !important;
+}
+
+.card-text {
+  color: #ffff;
+  font-family: Lexend Deca;
+  font-weight: 400;
+}
+
+.card-tittle {
+  color: #ffff;
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+}
+
+.text-bright-orange {
+  color: hsl(31, 77%, 52%) !important;
+}
+
+.text-dark-cyan {
+  color: hsl(184, 100%, 22%) !important;
+}
+
+.text-very-dark-cyan {
+  color: hsl(179, 100%, 13%) !important;
+}
+.btn {
+  background-color: hsl(0, 0%, 100%) !important;
+}
+
+.btn:hover {
+  border: solid hsl(0, 0%, 100%) !important;
+  background-color: transparent !important;
+  color: hsl(0, 0%, 100%) !important;
+}
